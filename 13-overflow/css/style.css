@@ -5,9 +5,17 @@
     border: 1px solid red;
     font-size: 1.3rem;
     vertical-align: top;
-    
+
 }
 
 .box-hidden {
     overflow: hidden;
+}
+
+.box-scroll {
+    overflow: scroll;
+}
+
+.box-auto {
+    overflow: auto;
 }
