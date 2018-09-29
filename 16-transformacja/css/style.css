@@ -32,3 +32,32 @@
     top: 50%;
     transform: translate(-50%, -50%);
 }
+
+.animate {
+    
+    height: 200px;
+    background-color: darkkhaki;
+    animation: resize 6s steps(6,start) 2s forwards;
+/*
+    animation-name: resize;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+*/
+}
+
+@keyframes resize {
+    0% {
+        width: 100%;
+        transform: translateX(0);
+    }
+    50% {
+        width: 50%;
+        transform: translateX(200);
+    }
+    100% {
+        width: 75%;
+        transform: translateX(-300px);
+    }
+}
